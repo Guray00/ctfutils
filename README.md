@@ -13,6 +13,7 @@ sudo apt install python3
 ```
 
 2. Clone this repository (or download the project as zip from this page). 
+3. Navigate to tmp.
 ```bash
 cd /tmp/
 ```
