@@ -1,12 +1,9 @@
 mkdir -p ~/.ctfutils
-cp  dec2hex ~/.ctfutils
-cp  hex2dec ~/.ctfutils
-cp  cuint ~/.ctfutils
+cp  ./scripts/dec2hex ~/.ctfutils
+cp  ./scripts/hex2dec ~/.ctfutils
+cp  ./scripts/cuint ~/.ctfutils
 
-chmod a+x ~/.ctfutils/dec2hex
-chmod a+x ~/.ctfutils/hex2dec
-chmod a+x ~/.ctfutils/cuint
-
+chmod -R a+x ~/.ctfutils/
 
 if grep -Fxq 'export PATH=$PATH":$HOME/.ctfutils"' ~/.profile
 then
