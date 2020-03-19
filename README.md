@@ -1,4 +1,4 @@
-# Csutils - CTF tools
+# CTF utils
 Simple tools for ultra-basic Cyber Security. The provided scripts are:
 * **hex2dec**: Converts a given hex number in dec.
 * **dec2hex**: Converts a given dec number in hex.
@@ -18,7 +18,7 @@ cd /tmp/
 ```
 The above command is **optional**, it is to download the zip file in a temporary folder (it will be automatically removed when you    shutdown the pc).
 ```bash
-git clone https://github.com/Guray00/csutils
+git clone https://github.com/Guray00/ctfutils
 ``` 
 3. Extract the zip folder and run the install.sh file. In order to make this: 
 ```bash
