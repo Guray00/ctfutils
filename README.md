@@ -9,7 +9,7 @@ Simple tools for ultra-basic Cyber Security. The provided script are:
 1. Make sure to have python3 and pip3 installed: 
 **On Debian/Ubuntu**
 ```
-sudo apt install python 3
+sudo apt install python3
 sudo apt install pip3
 ```
 
