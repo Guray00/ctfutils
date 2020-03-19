@@ -44,6 +44,6 @@ chmod a+x ./uninstall.sh
 Makes the uninstall.sh file executable.
 
 ```bash
-./install.sh
+./uninstall.sh
 ```
 Runs the uninstall script, you have finished!
