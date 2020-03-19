@@ -1,7 +1,11 @@
 # csutils
-Simple script for cyber security
+Simple tools for ultra-basic Cyber Security. The provided script are:
+* **hex2dec**: Converts a given hex number in dec.
+* **dec2hex**: Converts a given dec number in hex.
+* **cuint** : Allows you to approximate a given number with 16, 32, 64 bit architectures simulating unsigned int (16, 32, 64).
 
-# Installation
+
+## Install
 1. Make sure to have python3 and pip3 installed: 
 **On Debian/Ubuntu**
 ```
@@ -26,3 +30,17 @@ It makes all files executable.
 ./install.sh
 ```
 It runs the installation script, you have finished!
+
+
+## Uninstall
+Download this repo as zip file, extract it and:
+
+```bash
+chmod a+x ./uninstall.sh
+```
+Makes the uninstall.sh file executable.
+
+```bash
+./install.sh
+```
+Runs the uninstall script, you have finished!
