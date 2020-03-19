@@ -2,14 +2,14 @@
 Simple script for cyber security
 
 # Installation
-i. Make sure to have python3 and pip3 installed: 
+1. Make sure to have python3 and pip3 installed: 
 **On Debian/Ubuntu**
 ```
 sudo apt install python 3
 sudo apt install pip3
 ```
 
-i. Clone this repository (or download the project as zip from this page).
+1. Clone this repository (or download the project as zip from this page).
 ```
 cd /tmp/
 ```
@@ -17,7 +17,7 @@ The above command is **optional**, it is to download the zip file in a temporary
 ```
 git clone https://github.com/Guray00/csutils
 ```
-i. Extract the zip folder and run the install.sh file. In order to make this:
+1. Extract the zip folder and run the install.sh file. In order to make this:
 ```
 chmod a+x * 
 ```
