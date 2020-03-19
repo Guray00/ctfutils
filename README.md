@@ -1,4 +1,4 @@
-# csutils
+# Csutils - CTF tools
 Simple tools for ultra-basic Cyber Security. The provided scripts are:
 * **hex2dec**: Converts a given hex number in dec.
 * **dec2hex**: Converts a given dec number in hex.
