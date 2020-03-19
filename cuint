@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+
+import sys
+import ctypes as ct
+
+if (len(sys.argv) > 2):
+	try:
+		tmp = ct.c_uint32(int(sys.argv[1],0)).value
+
+	except:
+		print("Provide a valid input, please.")	
+		sys.exit()
+
+	if (sys.argv[1] == "-16"):
+		print(ct.c_uint16(int(sys.argv[2],0)).value)
+
+	elif (sys.argv[1] == "-32"):
+		print(ct.c_uint32(int(sys.argv[2],0)).value)
+	
+	elif (sys.argv[1] == "-64"):
+		print(ct.c_uint64(int(sys.argv[2],0)).value)
+
+	else:
+		print("Provide a valid option, you can choose between '16', '32', '64'.")
+
+
+elif(len(sys.argv) == 0):
+	print("You need to provide an input... Am I a magician??")
+
+else:
+	try:
+		print("Default conversion is with 32bit:")
+		print(ct.c_uint32(int(sys.argv[1],0)).value)
+
+
+	except:
+		print("Provide a valid input, please.")
+    
