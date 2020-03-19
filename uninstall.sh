@@ -1,14 +1,14 @@
 #!/bin/bash 
  
-if [ -d ~/.csutils ]; then rm -Rf ~/.csutils; fi
+if [ -d ~/.ctfutils ]; then rm -Rf ~/.ctfutils; fi
         
 
 
 
-if grep -Fxq 'export PATH=$PATH":$HOME/.csutils"' ~/.profile
+if grep -Fxq 'export PATH=$PATH":$HOME/.ctfutils"' ~/.profile
 then
 	# code if found
-	sed -i 's/export PATH=$PATH":$HOME\/.csutils"//g' ~/.profile
+	sed -i 's/export PATH=$PATH":$HOME\/.ctfutils"//g' ~/.profile
 	
 fi
 

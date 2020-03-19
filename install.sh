@@ -1,19 +1,18 @@
-mkdir -p ~/.csutils
-
-cp  dec2hex ~/.csutils
+mkdir -p ~/.ctfutils
+cp  dec2hex ~/.ctfutils
 cp  hex2dec ~/.csutils
-cp  d2h ~/.csutils
-cp  h2d ~/.csutils
-cp  cuint ~/.csutils
+cp  d2h ~/.ctfutils
+cp  h2d ~/.ctfutils
+cp  cuint ~/.ctfutils
 
-chmod a+x ~/.csutils/dec2hex
-chmod a+x ~/.csutils/hex2dec
-chmod a+x ~/.csutils/d2h
-chmod a+x ~/.csutils/h2d
-chmod a+x ~/.csutils/cuint
+chmod a+x ~/.ctfutils/dec2hex
+chmod a+x ~/.ctfutils/hex2dec
+chmod a+x ~/.ctfutils/d2h
+chmod a+x ~/.ctfutils/h2d
+chmod a+x ~/.ctfutils/cuint
 
 
-if grep -Fxq 'export PATH=$PATH":$HOME/.csutils"' ~/.profile
+if grep -Fxq 'export PATH=$PATH":$HOME/.ctfutils"' ~/.profile
 then
 	# code if found
 	echo "already add to .profile."
@@ -21,7 +20,7 @@ then
 	
 else
     	# code if not found
-	echo 'export PATH=$PATH":$HOME/.csutils"' >> ~/.profile
+	echo 'export PATH=$PATH":$HOME/ctfutils"' >> ~/.profile
 	source ~/.profile
 fi
 
