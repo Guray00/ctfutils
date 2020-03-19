@@ -31,7 +31,7 @@ It makes all files executable.
 It runs the installation script, you have finished! To start immediatly using the scripts directly from command line (without reboot) you may need:
 
 ```
-source ~./.profile
+source ~/.profile
 ```
 
 ## Uninstall
