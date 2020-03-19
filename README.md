@@ -22,7 +22,7 @@ git clone https://github.com/Guray00/ctfutils
 ``` 
 3. Extract the zip folder and run the install.sh file. In order to make this: 
 ```bash
-chmod a+x * 
+chmod -R a+x ./
 ```
 It makes all files executable.
 ```bash
