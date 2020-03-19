@@ -29,11 +29,14 @@ It makes all files executable.
 ```bash
 ./install.sh
 ```
-It runs the installation script, you have finished!
+It runs the installation script, you have finished! To start immediatly using the scripts directly from command line (without reboot) you may need:
 
+```
+source ~./.profile
+```
 
 ## Uninstall
-Download this repo as zip file, extract it and:
+Download this repo as zip file, extract and navigate with the terminal to the extracted folder, then:
 
 ```bash
 chmod a+x ./uninstall.sh
